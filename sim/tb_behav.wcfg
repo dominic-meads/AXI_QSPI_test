@@ -14,15 +14,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="999996fs"></ZoomStartTime>
-      <ZoomEndTime time="1000009fs"></ZoomEndTime>
-      <Cursor1Time time="1000000fs"></Cursor1Time>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="150000001fs"></ZoomEndTime>
+      <Cursor1Time time="35029940fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="234"></NameColumnWidth>
       <ValueColumnWidth column_width="102"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="19" />
+   <WVObjectSize size="20" />
    <wvobject type="divider" fp_name="divider9">
       <obj_property name="label">DUT Ports</obj_property>
       <obj_property name="DisplayName">label</obj_property>
@@ -46,6 +46,7 @@
    <wvobject fp_name="/tb/o_spi_rtl_ss_io" type="array">
       <obj_property name="ElementShortName">o_spi_rtl_ss_io[0:0]</obj_property>
       <obj_property name="ObjectShortName">o_spi_rtl_ss_io[0:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
    </wvobject>
    <wvobject fp_name="/tb/i_sys_clock" type="logic">
       <obj_property name="ElementShortName">i_sys_clock</obj_property>
@@ -197,6 +198,50 @@
       <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/ip2intc_irpt" type="logic">
          <obj_property name="ElementShortName">ip2intc_irpt</obj_property>
          <obj_property name="ObjectShortName">ip2intc_irpt</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group184" type="group">
+      <obj_property name="label">register space</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/U0/no_dual_quad_mode/QSPI_NORMAL/qspi_legacy_md_gen/QSPI_CORE_INTERFACE_I/SPICR" type="other">
+         <obj_property name="ElementShortName">SPICR</obj_property>
+         <obj_property name="ObjectShortName">SPICR</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/U0/no_dual_quad_mode/QSPI_NORMAL/qspi_legacy_md_gen/QSPI_CORE_INTERFACE_I/SPISR" type="other">
+         <obj_property name="ElementShortName">SPISR</obj_property>
+         <obj_property name="ObjectShortName">SPISR</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/U0/no_dual_quad_mode/QSPI_NORMAL/qspi_legacy_md_gen/QSPI_CORE_INTERFACE_I/SPIDTR" type="other">
+         <obj_property name="ElementShortName">SPIDTR</obj_property>
+         <obj_property name="ObjectShortName">SPIDTR</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/U0/no_dual_quad_mode/QSPI_NORMAL/qspi_legacy_md_gen/QSPI_CORE_INTERFACE_I/SPIDRR" type="other">
+         <obj_property name="ElementShortName">SPIDRR</obj_property>
+         <obj_property name="ObjectShortName">SPIDRR</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/U0/no_dual_quad_mode/QSPI_NORMAL/qspi_legacy_md_gen/QSPI_CORE_INTERFACE_I/SPISEL" type="logic">
+         <obj_property name="ElementShortName">SPISEL</obj_property>
+         <obj_property name="ObjectShortName">SPISEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/U0/no_dual_quad_mode/QSPI_NORMAL/qspi_legacy_md_gen/QSPI_CORE_INTERFACE_I/INTERRUPT_CONTROL_I/DEVICE_IER" type="other">
+         <obj_property name="ElementShortName">DEVICE_IER</obj_property>
+         <obj_property name="ObjectShortName">DEVICE_IER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/U0/no_dual_quad_mode/QSPI_NORMAL/qspi_legacy_md_gen/QSPI_CORE_INTERFACE_I/INTERRUPT_CONTROL_I/IP_IER" type="other">
+         <obj_property name="ElementShortName">IP_IER</obj_property>
+         <obj_property name="ObjectShortName">IP_IER</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/U0/no_dual_quad_mode/QSPI_NORMAL/qspi_legacy_md_gen/QSPI_CORE_INTERFACE_I/INTERRUPT_CONTROL_I/IP_ISR" type="other">
+         <obj_property name="ElementShortName">IP_ISR</obj_property>
+         <obj_property name="ObjectShortName">IP_ISR</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
       </wvobject>
    </wvobject>
    <wvobject type="divider" fp_name="divider53">
