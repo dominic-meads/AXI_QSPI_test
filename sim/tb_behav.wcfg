@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999996fs"></ZoomStartTime>
+      <ZoomEndTime time="1000009fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject type="divider" fp_name="divider9">
+      <obj_property name="label">DUT Ports</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i_reset" type="logic">
+      <obj_property name="ElementShortName">i_reset</obj_property>
+      <obj_property name="ObjectShortName">i_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/o_spi_rtl_io0_io" type="logic">
+      <obj_property name="ElementShortName">o_spi_rtl_io0_io</obj_property>
+      <obj_property name="ObjectShortName">o_spi_rtl_io0_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i_spi_rtl_io1_io" type="logic">
+      <obj_property name="ElementShortName">i_spi_rtl_io1_io</obj_property>
+      <obj_property name="ObjectShortName">i_spi_rtl_io1_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/o_spi_rtl_sck_io" type="logic">
+      <obj_property name="ElementShortName">o_spi_rtl_sck_io</obj_property>
+      <obj_property name="ObjectShortName">o_spi_rtl_sck_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/o_spi_rtl_ss_io" type="array">
+      <obj_property name="ElementShortName">o_spi_rtl_ss_io[0:0]</obj_property>
+      <obj_property name="ObjectShortName">o_spi_rtl_ss_io[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i_sys_clock" type="logic">
+      <obj_property name="ElementShortName">i_sys_clock</obj_property>
+      <obj_property name="ObjectShortName">i_sys_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk_hz" type="other">
+      <obj_property name="ElementShortName">clk_hz</obj_property>
+      <obj_property name="ObjectShortName">clk_hz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider10">
+      <obj_property name="label">axi_quad_spi_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group11" type="group">
+      <obj_property name="label">axi_quad_spi_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/ext_spi_clk" type="logic">
+         <obj_property name="ElementShortName">ext_spi_clk</obj_property>
+         <obj_property name="ObjectShortName">ext_spi_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_aclk" type="logic">
+         <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_aresetn" type="logic">
+         <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">s_axi_awaddr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awaddr[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_awready" type="logic">
+         <obj_property name="ElementShortName">s_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_wdata" type="array">
+         <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_wready" type="logic">
+         <obj_property name="ElementShortName">s_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_bresp" type="array">
+         <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_bready" type="logic">
+         <obj_property name="ElementShortName">s_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_araddr" type="array">
+         <obj_property name="ElementShortName">s_axi_araddr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_araddr[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_arready" type="logic">
+         <obj_property name="ElementShortName">s_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_rdata" type="array">
+         <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_rresp" type="array">
+         <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/s_axi_rready" type="logic">
+         <obj_property name="ElementShortName">s_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/io0_i" type="logic">
+         <obj_property name="ElementShortName">io0_i</obj_property>
+         <obj_property name="ObjectShortName">io0_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/io0_o" type="logic">
+         <obj_property name="ElementShortName">io0_o</obj_property>
+         <obj_property name="ObjectShortName">io0_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/io0_t" type="logic">
+         <obj_property name="ElementShortName">io0_t</obj_property>
+         <obj_property name="ObjectShortName">io0_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/io1_i" type="logic">
+         <obj_property name="ElementShortName">io1_i</obj_property>
+         <obj_property name="ObjectShortName">io1_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/io1_o" type="logic">
+         <obj_property name="ElementShortName">io1_o</obj_property>
+         <obj_property name="ObjectShortName">io1_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/io1_t" type="logic">
+         <obj_property name="ElementShortName">io1_t</obj_property>
+         <obj_property name="ObjectShortName">io1_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/sck_i" type="logic">
+         <obj_property name="ElementShortName">sck_i</obj_property>
+         <obj_property name="ObjectShortName">sck_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/sck_o" type="logic">
+         <obj_property name="ElementShortName">sck_o</obj_property>
+         <obj_property name="ObjectShortName">sck_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/sck_t" type="logic">
+         <obj_property name="ElementShortName">sck_t</obj_property>
+         <obj_property name="ObjectShortName">sck_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/ss_i" type="array">
+         <obj_property name="ElementShortName">ss_i[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ss_i[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/ss_o" type="array">
+         <obj_property name="ElementShortName">ss_o[0:0]</obj_property>
+         <obj_property name="ObjectShortName">ss_o[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/ss_t" type="logic">
+         <obj_property name="ElementShortName">ss_t</obj_property>
+         <obj_property name="ObjectShortName">ss_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_quad_spi_0/ip2intc_irpt" type="logic">
+         <obj_property name="ElementShortName">ip2intc_irpt</obj_property>
+         <obj_property name="ObjectShortName">ip2intc_irpt</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider53">
+      <obj_property name="label">axi_traffic_gen_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group64" type="group">
+      <obj_property name="label">axi_traffic_gen_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/s_axi_aclk" type="logic">
+         <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/s_axi_aresetn" type="logic">
+         <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_awaddr" type="array">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_awprot" type="array">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_awvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_awready" type="logic">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_wdata" type="array">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_wstrb" type="array">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_wvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_wready" type="logic">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_bresp" type="array">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_bvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/m_axi_lite_ch1_bready" type="logic">
+         <obj_property name="ElementShortName">m_axi_lite_ch1_bready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_lite_ch1_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0/status" type="array">
+         <obj_property name="ElementShortName">status[31:0]</obj_property>
+         <obj_property name="ObjectShortName">status[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider71">
+      <obj_property name="label">axi_traffic_gen_0_axi_periph</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group72" type="group">
+      <obj_property name="label">axi_traffic_gen_0_axi_periph</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/ACLK" type="logic">
+         <obj_property name="ElementShortName">ACLK</obj_property>
+         <obj_property name="ObjectShortName">ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/ARESETN" type="logic">
+         <obj_property name="ElementShortName">ARESETN</obj_property>
+         <obj_property name="ObjectShortName">ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_ACLK" type="logic">
+         <obj_property name="ElementShortName">M00_ACLK</obj_property>
+         <obj_property name="ObjectShortName">M00_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_ARESETN" type="logic">
+         <obj_property name="ElementShortName">M00_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">M00_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_awaddr" type="array">
+         <obj_property name="ElementShortName">M00_AXI_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_awready" type="logic">
+         <obj_property name="ElementShortName">M00_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_awvalid" type="logic">
+         <obj_property name="ElementShortName">M00_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_bready" type="logic">
+         <obj_property name="ElementShortName">M00_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_bresp" type="array">
+         <obj_property name="ElementShortName">M00_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_bvalid" type="logic">
+         <obj_property name="ElementShortName">M00_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_wdata" type="array">
+         <obj_property name="ElementShortName">M00_AXI_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_wready" type="logic">
+         <obj_property name="ElementShortName">M00_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_wstrb" type="array">
+         <obj_property name="ElementShortName">M00_AXI_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI_wvalid" type="logic">
+         <obj_property name="ElementShortName">M00_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_ACLK" type="logic">
+         <obj_property name="ElementShortName">S00_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S00_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_ARESETN" type="logic">
+         <obj_property name="ElementShortName">S00_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S00_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_awaddr" type="array">
+         <obj_property name="ElementShortName">S00_AXI_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_awready" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_awvalid" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_bready" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_bresp" type="array">
+         <obj_property name="ElementShortName">S00_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_bvalid" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_wdata" type="array">
+         <obj_property name="ElementShortName">S00_AXI_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_wready" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_wstrb" type="array">
+         <obj_property name="ElementShortName">S00_AXI_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI_wvalid" type="logic">
+         <obj_property name="ElementShortName">S00_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_ACLK_1" type="logic">
+         <obj_property name="ElementShortName">S00_ACLK_1</obj_property>
+         <obj_property name="ObjectShortName">S00_ACLK_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_ARESETN_1" type="logic">
+         <obj_property name="ElementShortName">S00_ARESETN_1</obj_property>
+         <obj_property name="ObjectShortName">S00_ARESETN_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_ACLK_net" type="logic">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_ACLK_net</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_ACLK_net</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_ARESETN_net" type="logic">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_ARESETN_net</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_ARESETN_net</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_AWADDR" type="array">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_AWREADY" type="logic">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_AWVALID" type="logic">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_BREADY" type="logic">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_BREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_BRESP" type="array">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_BVALID" type="logic">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_BVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_WDATA" type="array">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_WREADY" type="logic">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_WREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_WSTRB" type="array">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/axi_traffic_gen_0_axi_periph_to_s00_couplers_WVALID" type="logic">
+         <obj_property name="ElementShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_WVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_traffic_gen_0_axi_periph_to_s00_couplers_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_AWADDR" type="array">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_AWREADY" type="logic">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_AWVALID" type="logic">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_BREADY" type="logic">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_BREADY</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_BRESP" type="array">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_BVALID" type="logic">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_BVALID</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_WDATA" type="array">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_WREADY" type="logic">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_WREADY</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_WSTRB" type="array">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/s00_couplers_to_axi_traffic_gen_0_axi_periph_WVALID" type="logic">
+         <obj_property name="ElementShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_WVALID</obj_property>
+         <obj_property name="ObjectShortName">s00_couplers_to_axi_traffic_gen_0_axi_periph_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/M00_AXI" type="protoinst">
+         <obj_property name="ElementShortName">M00_AXI</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/axi_traffic_gen_0_axi_periph/S00_AXI" type="protoinst">
+         <obj_property name="ElementShortName">S00_AXI</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider155">
+      <obj_property name="label">clk_wiz</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group157" type="group">
+      <obj_property name="label">clk_wiz</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/clk_wiz/clk_out1" type="logic">
+         <obj_property name="ElementShortName">clk_out1</obj_property>
+         <obj_property name="ObjectShortName">clk_out1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/clk_wiz/resetn" type="logic">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/clk_wiz/locked" type="logic">
+         <obj_property name="ElementShortName">locked</obj_property>
+         <obj_property name="ObjectShortName">locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/clk_wiz/clk_in1" type="logic">
+         <obj_property name="ElementShortName">clk_in1</obj_property>
+         <obj_property name="ObjectShortName">clk_in1</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider156">
+      <obj_property name="label">rst_clk_wiz_100M</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group159" type="group">
+      <obj_property name="label">rst_clk_wiz_100M</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/slowest_sync_clk" type="logic">
+         <obj_property name="ElementShortName">slowest_sync_clk</obj_property>
+         <obj_property name="ObjectShortName">slowest_sync_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/peripheral_reset" type="array">
+         <obj_property name="ElementShortName">peripheral_reset[0:0]</obj_property>
+         <obj_property name="ObjectShortName">peripheral_reset[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/peripheral_aresetn" type="array">
+         <obj_property name="ElementShortName">peripheral_aresetn[0:0]</obj_property>
+         <obj_property name="ObjectShortName">peripheral_aresetn[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/mb_reset" type="logic">
+         <obj_property name="ElementShortName">mb_reset</obj_property>
+         <obj_property name="ObjectShortName">mb_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/mb_debug_sys_rst" type="logic">
+         <obj_property name="ElementShortName">mb_debug_sys_rst</obj_property>
+         <obj_property name="ObjectShortName">mb_debug_sys_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/interconnect_aresetn" type="array">
+         <obj_property name="ElementShortName">interconnect_aresetn[0:0]</obj_property>
+         <obj_property name="ObjectShortName">interconnect_aresetn[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/ext_reset_in" type="logic">
+         <obj_property name="ElementShortName">ext_reset_in</obj_property>
+         <obj_property name="ObjectShortName">ext_reset_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/dcm_locked" type="logic">
+         <obj_property name="ElementShortName">dcm_locked</obj_property>
+         <obj_property name="ObjectShortName">dcm_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/bus_struct_reset" type="array">
+         <obj_property name="ElementShortName">bus_struct_reset[0:0]</obj_property>
+         <obj_property name="ObjectShortName">bus_struct_reset[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/AXI_QSPI_top_i/rst_clk_wiz_100M/aux_reset_in" type="logic">
+         <obj_property name="ElementShortName">aux_reset_in</obj_property>
+         <obj_property name="ObjectShortName">aux_reset_in</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
